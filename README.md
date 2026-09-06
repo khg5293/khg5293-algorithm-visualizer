@@ -4,7 +4,7 @@ Interactive React and TypeScript visualizations for algorithms, graph traversal,
 
 ## Live Demo
 
-https://khg5293.github.io/khg5293-algorithm-visualizer/
+https://khg5293.github.io/complexity
 
 ## Overview
 
@@ -81,4 +81,4 @@ Technical notes covering:
 Install dependencies:
 
 ```bash
-npm install
+npm installf
