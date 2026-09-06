@@ -31,12 +31,15 @@ function App() {
         </div>
       </header>
 
-      <Routes>
-        <Route path="/" element={<SortingLab />} />
-        <Route path="/graphs" element={<GraphExplorer />} />
-        <Route path="/complexity" element={<ComplexityLab />} />
-        <Route path="/about" element={<About />} />
-      </Routes>
+<Routes>
+  <Route index element={<SortingLab />} />
+  <Route path="/" element={<SortingLab />} />
+  <Route path="/graphs" element={<GraphExplorer />} />
+  <Route path="/complexity" element={<ComplexityLab />} />
+  <Route path="/about" element={<About />} />
+
+  <Route path="*" element={<SortingLab />} />
+</Routes>
 
       <footer>
         <div>
